@@ -1,0 +1,15 @@
+---
+title: "Clustering Analysis"
+format: html
+editor: visual
+---
+
+Here We apply network K-means clustering to analyze the structure and connectivity of provider-organization relationships within the healthcare network. These techniques allow us to examine both the overall network structure and the clustering of providers based on their connection patterns.
+
+The goal here is to cluster NPIs into distinct groups based on similarities in their relationships with TINs and potentially other characteristics (such as geographical location or specialty). This can help identify patterns among providers, such as groups that frequently work under the same TIN or have overlapping specialties.
+
+## Elbow Plot for NPI Dataset
+
+![](_site/cell-3-output-2.png)
+
+Optimal clusters for NPIs appear to be six or seven, as this level of segmentation provides meaningful insights while maintaining model simplicity. Each cluster could represent distinct categories of providers, such as those affiliated with different TINs (potentially corresponding to various healthcare organizations), providers with varying specialties (emphasizing areas of specialization or overlapping care), or providers from different geographical regions (capturing regional variations in healthcare practices). As a next step, we will look into network analysis to further explore these clusters and their interconnections.

@@ -1,0 +1,14 @@
+---
+title: "Mapping Provider Networks: 
+An Analysis of Healthcare Provider-Organization Relationships"
+---
+
+
+![Screenshot](_site/network.png)
+
+# Research Objective
+
+This project’s research objective is both exploratory/descriptive and inferential. The primary goal is to map and analyze the structural relationships within the U.S. healthcare network by examining how healthcare providers, identified by National Provider Identifiers (NPIs), connect to organizations, represented by Tax Identification Numbers (TINs), based on shared affiliations. 
+
+The initial network analysis will lay a foundation for understanding broader connectivity within the healthcare system, focusing on core clusters of affiliations and identifying central hubs.
+In the second phase, the project will infer patterns related to provider specialties by joining the NPI-TIN dataset with taxonomy data, categorizing providers by specialty. This enriched dataset will allow us to examine whether the distribution of TINs per NPI varies across provider types
