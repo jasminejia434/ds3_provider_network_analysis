@@ -1,0 +1,47 @@
+---
+title: "Exploratory Analysis"
+format: html
+editor: visual
+---
+
+The dataset originates from an insurance company and initially contains 7.1 million rows. To facilitate interpretation and optimize computational efficiency, a 1% sample of the original dataset has been extracted for the subsequent analysis.
+
+# Provider's Location
+
+![](_site/top10states.png)
+
+
+
+
+**Most Represented States:**
+
+Florida (FL) has the highest number of NPIs, followed by Texas (TX) and Ohio (OH). These states appear to be major contributors in terms of healthcare provider representation.
+Other states like California (CA), Georgia (GA), Michigan (MI), and North Carolina (NC) also have significant numbers of NPIs, though not as high as the top three.
+
+
+**Healthcare Access:**
+
+These states may have better healthcare accessibility, as indicated by the higher number of providers. However, this depends on how these NPIs are distributed within each state — they could be concentrated in urban areas, leaving rural areas underserved. Our future next step is to look at the specific zipcodes, to look at where the NPIs are clustered in.
+
+
+
+
+
+
+
+# Provider's Specialty
+
+![](_site/cell-2-output-2.png)
+
+
+
+**Most Common Specialties:**
+
+The Physician Assistants & Advanced Practice Nursing Providers/Nurse Practitioner Family specialty leads with the highest number of NPIs, followed by Physician Assistants & Advanced Practice Nursing Providers/Physician Assistant.
+These two specialties stand out significantly, indicating a high number of healthcare providers practicing in family nursing and physician assistant roles.
+
+
+**Implications for Healthcare Access:**
+
+The dominance of nurse practitioners and physician assistants indicates a shift towards using more mid-level healthcare providers to improve access to healthcare.
+This trend is often seen in regions where there may be a shortage of physicians, as these practitioners help bridge the gap by providing essential services.
